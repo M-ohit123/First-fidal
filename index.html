@@ -24,18 +24,16 @@
             alt=""
             class="logo"
           />
-          <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" alt="" class="moblogo">
         </a>
         <!--mobile logo-->
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#a" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-        <div class="navbar-collapse collapse" id="a">
-          <ul class="navbar-nav ms-auto\">
+        <button class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse">
+          <ul class="navbar-nav ms-auto">
             <li><a href="index.html" class="nav-link">HOME</a></li>
             <li><a href="about.html" class="nav-link">ABOUT</a></li>
-            <li><a href="brand.html" class="nav-link">BRAND</a></li>
+            <li><a href="" class="nav-link">BRAND</a></li>
             <li><a href="" class="nav-link">OUR TEAM</a></li>
             <li><a href="" class="nav-link">PRESS REALESE</a></li>
             <li><a href="" class="nav-link">CONTACT</a></li>
@@ -44,13 +42,72 @@
         </div>
       </div>
     </nav>
-    <div>
-      <img
-        src="https://pn-paul.netlify.app/image/slider1.jpg"
-        alt=""
-        class="w-100"
-      />
+     <!--slider div start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="s">
+
+      <div class="carousel-indicators">
+        <button
+          data-bs-target="#s"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button data-bs-target="#s" data-bs-slide-to="1"></button>
+       
+      </div>
+      <!--carousel-indicators-->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img
+            src="https://pn-paul.netlify.app/image/slider1.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>0
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            src="https://pn-paul.netlify.app/image/slider22.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>
+        1
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            src="https://pn-paul.netlify.app/image/slidwr33.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>
+        2
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            src=""
+            alt=""
+            class="w-100"
+          />
+        </div>
+        3
+      </div>
+      <!--carousel end-->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#s"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#s"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
+    <!--slider div end-->
     <div class="container">
       <h2 class="a">WELCOME TO <b style="color: orange">FIRST FIDDLE</b></h2>
       <br />
@@ -112,21 +169,21 @@
         </div>
         <div class="col-md-3">
           <img
-            src="https://pn-paul.netlify.app/image/ffpic1.jpg"
+            src="https://pn-paul.netlify.app/image/ffpic2.jpg"
             alt=""
             class="w-100"
           />
         </div>
         <div class="col-md-3">
           <img
-            src="https://pn-paul.netlify.app/image/ffpic1.jpg"
+            src="https://pn-paul.netlify.app/image/ffpic3.jpg"
             alt=""
             class="w-100"
           />
         </div>
         <div class="col-md-3">
           <img
-            src="https://pn-paul.netlify.app/image/ffpic1.jpg"
+            src="https://pn-paul.netlify.app/image/ffpic4.jpg"
             alt=""
             class="w-100"
           />
@@ -134,7 +191,7 @@
       </div>
     </div>
     <br />
-    <div class="container-fluid c">
+    <div class="container-fluid f">
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center text-white">
@@ -145,6 +202,7 @@
             gastronomic affairs, and exotic mixology. We’ve made our way from
             the heart of the country into the hearts of its people!
           </p>
+          <br><br>
           <div class="text-center">
             <button class="btn btn-info">Read More...</button>
           </div>
